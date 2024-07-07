@@ -1,0 +1,17 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Sigurd Hofsmo Jakobsen", email = "sigurd.jakobsen@sintef.no"},
+]
+dependencies = [
+    "tops>=0.2.0",
+    "jupyterlab>=4.2.3",
+    "sparculing @ git+https://github.com/Hofsmo/bayes_rescheduling",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm]
